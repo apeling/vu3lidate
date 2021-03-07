@@ -1,5 +1,5 @@
-# vu3lidate
 Project to explore migrating from Vee Validate to Vuelidate for Vue 3 application with forms
+# vu3lidate
 ## Project setup
 ```
 npm install
