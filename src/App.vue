@@ -1,10 +1,22 @@
 <template>
+  <p>{{version}}</p>
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
 </template>
+
+<script>
+import { ref } from 'vue'
+export default {
+  setup () {
+    return {
+      version: ref(process.env.VUE_APP_VERSION)
+    }
+  }
+}
+</script>
 
 <style>
 #app {
