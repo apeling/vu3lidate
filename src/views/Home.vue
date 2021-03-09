@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    HERERE
     <TestForm></TestForm>
   </div>
 </template>
@@ -14,7 +13,6 @@ export default {
     TestForm
   },
   setup () {
-    console.log('Got here!!!')
   }
 }
 </script>
